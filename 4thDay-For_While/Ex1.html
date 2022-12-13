@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="Ex1.css">
+<body>
+    <form name="frm">
+        <p>
+            <label>
+                Product name
+                <input type="text" name="pname" id="pname">
+            </label>
+            <label>
+                Quantity
+                <input type="text" name="qty" id="qty">
+            </label>
+        </p>
+        <p>
+            <label>
+                Unit price
+                <input type="text" name="up" id="up">
+            </label>
+            <label>
+                Discount
+                <input type="text" name="dc" id="dc">
+            </label>
+        </p>
+        <p>
+            <button type="button" onclick="sell()">Sell</button>
+            <button type="button">Cancle</button>
+        </p>
+    </form>
+    <table id="tbl" style="border: 1px solid black;">
+        <tr>
+            <th>ID</th>
+            <th>Product name</th>
+            <th>Quantity</th>
+            <th>Unit price</th>
+            <th>Discount</th>
+            <th>Subtotal</th>
+        </tr>
+    </table>
+
+<script src="Ex1.js"></script>
+</body>
+</html>

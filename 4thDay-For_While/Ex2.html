@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="Ex2.css">
+<body>
+    <form name="frm">
+        <p>
+            <label>
+                First name
+                <input type="text" name="fname" id="fname">
+            </label>
+            <label>
+                Last name
+                <input type="text" name="lname" id="lname">
+            </label>
+            <label>
+                Score
+                <input type="number" min="0" name="sc" id="sc">
+            </label>
+        </p>
+        <p>
+            <button type="button" onclick="ok()">Ok</button>
+        </p>
+    </form>
+    <table id="tbl" style="border: 1px solid black;">
+        <tr>
+            <th>No</th>
+            <th>Full name</th>
+            <th>Score</th>
+            <th>Result</th>
+            <th>Mention</th>
+        </tr>
+    </table>
+
+<script src="Ex2.js"></script>
+</body>
+</html>

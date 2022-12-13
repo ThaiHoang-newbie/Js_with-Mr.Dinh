@@ -1,0 +1,15 @@
+table{
+    width: 600px;
+    border-spacing: 0;
+    border: 1px solid black;   
+}
+#tbl #tr{
+    height: 27px;
+}
+#tbl tr th, #tbl tr td{
+    text-align: left;
+    border-bottom: 1px solid black;
+}
+#tbl tr:last-child td {
+    border: none;
+}
